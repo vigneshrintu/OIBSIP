@@ -1,0 +1,180 @@
+
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Roboto', sans-serif;
+    color: #040B14;
+}
+
+.header {
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    justify-content: center;
+    background: #040B14;
+    color: aliceblue;
+    align-items: center;
+    height: 50px;
+}
+b{
+    color: aliceblue;
+}
+.name{
+    padding-bottom: 10px;
+}
+.left{
+    color: aliceblue;
+    font-size: large;
+}
+.head:hover{
+    color: rgb(151, 151, 151);
+}
+.right ul {
+    display: flex;
+    font-size: 10px;
+    margin-left: 20vw;
+}
+.right{
+    margin-left: 300px;
+
+}
+/*.head {
+    display: flex;
+    justify-content: end;
+    list-style: none;
+    margin-right: 40px;
+    color: aliceblue;
+}*/
+li a{
+    display: flex;
+    justify-content: end;
+    list-style: none;
+    margin-right: 40px;
+    color: aliceblue;
+}
+.container{
+    display: flex;
+    justify-content: space-around;
+    background-color: rgb(224, 239, 255);
+    height:100vh;
+}
+.rightsection{
+    margin-top: 45vh;
+}
+#element{
+    color: rgb(0, 179, 255);
+}
+.image{
+    width: 460px;
+    height: 440px;
+    margin-top: 14vh;
+}
+.box{
+    background-color: rgb(224, 239, 255);
+    height: 70vh;
+    display: flex;
+    justify-content: center;
+    padding-top: 30vh;
+}
+.box1{
+    background-color: aliceblue;
+    width: 80vw;
+    height: 40vh;
+    border-radius: 20px;
+}
+.text{
+    display: flex;
+    justify-content: center;
+    color: rgb(0, 179, 255);
+    text-decoration: underline;
+    padding-top: 15px;
+}
+.text1{
+    padding: 30px;
+}
+
+.resumebox{
+    background-color: rgb(224, 239, 255);
+    height: 30vh;
+    display:flex;
+    justify-content: center;
+    padding-top: 10vh;
+
+}
+.resumebox1{
+    background-color: aliceblue;
+    width: 80vw;
+    height: 30vh;
+    border-radius: 20px;
+}
+.resume{
+    display: flex;
+    justify-content: center;
+    color: rgb(0, 179, 255);
+    text-decoration: underline;
+    padding-top: 15px;
+
+}
+.resume1{
+    padding: 30px;
+}
+.click{
+    color: rgb(0, 179, 255);
+}
+
+.contactbox{
+    background-color: rgb(224, 239, 255);
+    height: 60vh;
+    display:flex;
+    padding: 150px;
+}
+.contact{
+    background-color: aliceblue;
+    width: 40vw;
+    height: 50vh;
+    border-radius: 20px;
+    padding-top: 20px;
+}
+.con{
+    padding-left: 18vw;
+    text-decoration: underline;
+    color: rgb(0, 179, 255);
+}
+.cell-logo{
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+}
+.logoanddetails{
+    display: flex;
+    padding-top: 20px;
+}
+.num1{
+    padding-left: 20px;
+    font-size: 15px;
+
+}
+.num{
+    padding-left: 20px;
+    padding-top: 8px;
+    font-size: 10px;
+}
+.space{
+    padding-left: 30px;
+}
+.imgphn{
+    width: 300px;
+    height: 300px;
+    padding-left: 300px;
+    margin-bottom: 50px;
+}
+.flex{
+    display: flex;
+    justify-content: space-between;
+}
+.footer{
+    background:aliceblue;
+    height:40vh; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

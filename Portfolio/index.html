@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto&display=swap"
+      rel="stylesheet"
+    />
+    <title>PORTFOLIO</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <div class="header">
+      <div class="left"><b>PORTFOLIO</b></div>
+      <div class="right">
+        <ul>
+          <li class="head"><a href="#home">Home</a></li>
+          <li class="head"><a href="#about">About Me</a></li>
+          <li class="head"><a href="#resume">Resume</a></li>
+          <li class="head"><a href="#contact">Contact</a></li>
+          <li class="head"><a href="#footer">Details</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="container" id="home">
+      <div class="rightsection">
+        <h1 class="name">VIGNESHWAR REDDY</h1>
+        <span id="element">I'm a </span>
+      </div>
+      <img
+        class="image"
+        src="https://bootstrapmade.com/demo/templates/Arsha/assets/img/hero-img.png"
+      />
+    </div>
+
+    <div class="box" id="about">
+      <div class="box1">
+        <p class="text">About Me</p>
+        <p class="text1">
+          Hello! I'm Vigneshwar Reddy Panchakoti, a first-year B.Tech student.
+          I'm passionate about front-end web development, using HTML, CSS, and
+          JavaScript to create user-friendly websites. I'm also skilled in C++
+          programming, solving complex problems with elegant solutions. Let's
+          innovate together!
+        </p>
+      </div>
+    </div>
+
+    <div class="resumebox" id="resume">
+      <div class="resumebox1">
+        <p class="resume">Resume</p>
+        <a
+          href="https://drive.google.com/file/d/1AsAovbiNjAlL0geaxPm8rUD0e6EKcyvn/view?usp=drive_link"
+          >Click here to download</a
+        >
+      </div>
+    </div>
+
+    <div class="contactbox" id="contact">
+      <div class="contact">
+        <span class="con">Contact</span>
+
+        <div class="flex">
+          <div class="space">
+            <div class="logoanddetails">
+              <img
+                class="cell-logo"
+                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTmsBncBETI0gJsXNQ7a_zRFvmnWc9JDu3ECA&usqp=CAU"
+              />
+              <div class="celldetails">
+                <h4 class="num1">Location</h4>
+                <p class="num">RGUKT,basar</p>
+              </div>
+            </div>
+            <div class="logoanddetails">
+              <img
+                class="cell-logo"
+                src="https://www.citypng.com/public/uploads/preview/hd-letter-email-round-blue-icon-transparent-png-11637141038bsz4tzs1ur.png"
+              />
+              <div class="celldetails">
+                <h4 class="num1">E-mail</h4>
+                <p class="num">vigneshrintu@gmail.com</p>
+              </div>
+            </div>
+
+            <div class="logoanddetails">
+              <img
+                class="cell-logo"
+                src="https://img.freepik.com/free-vector/phone_78370-560.jpg?w=2000"
+              />
+              <div class="celldetails">
+                <h4 class="num1">Cell</h4>
+                <p class="num">+919182449715</p>
+              </div>
+            </div>
+          </div>
+          <img
+            class="imgphn"
+            src="https://harshvardhan-takawale.github.io/assets/img/portfolio/car.png"
+          />
+        </div>
+      </div>
+    </div>
+
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+    <script>
+      var typed = new Typed("#element", {
+        strings: ["web developer", "programmer"],
+        typeSpeed: 50,
+      });
+    </script>
+
+    <script>
+      $(document).ready(function () {
+        $('a[href^="#"]').on("click", function (event) {
+          event.preventDefault();
+          var target = $($(this).attr("href"));
+          if (target.length) {
+            $("html, body").stop().animate(
+              {
+                scrollTop: target.offset().top,
+              },
+              1000
+            );
+          }
+        });
+      });
+    </script>
+  </body>
+</html>
